@@ -6,6 +6,7 @@
 #include <string.h>
 #include <string>
 #include <cstdlib>
+#include <limits>
 using namespace std;
 
 class Crypto
