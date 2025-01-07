@@ -152,6 +152,7 @@ class Menu:private FileHandler
                 cout<<"----------EXIT--0-----------\n"<<endl;
                 int sel = 0;
                 cin>>sel;
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 if(sel<0||sel>4)
                     {
                         cout<<"指令错误！！\n"<<endl;
