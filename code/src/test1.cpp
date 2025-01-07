@@ -27,7 +27,8 @@ class Crypto
             string oringin_text = "";
             char *end_text = (char*)malloc(10000);
             cout<<"请输入要加密的文本："<<endl;
-            cin>>oringin_text;
+            //cin>>oringin_text;
+            getline(cin,oringin_text);
             SetKey();
             for(int i=0;i<oringin_text.length();i++)
             {
@@ -57,7 +58,7 @@ class Crypto
             string end_text = "";
             char *oringin_text = (char*)malloc(10000);
             cout<<"请输入要解密的文本："<<endl;
-            cin>>end_text;
+            getline(cin,end_text);;
             SetKey();
             for(int i=0;i<end_text.length();i++)
             {
