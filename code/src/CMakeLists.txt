@@ -1,0 +1,2 @@
+SET(CRYPTO_SRC test1.cpp)
+ADD_EXECUTABLE(CryptoTool ${CRYPTO_SRC})
